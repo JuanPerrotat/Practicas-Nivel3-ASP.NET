@@ -3,32 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mí prueba</title>
+    <title>Primer desarrollo web</title>
+
+    <style> 
+        p{
+            color:black;
+            font-style: italic;
+            font-weight: bold;
+        }
+        #Header4{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(251, 127, 255);
+        }
+        .ColorPrincipal{
+            color: blueviolet;
+        }
+    </style>
 </head>
-<body>
-<h1>Primera web de prueba</h1>
-<h3>Segundo título de prueba</h3>
-<p>
-    Éste texto es una prueba.
-    La idea es ver cómo se ve. ¿Va bien?
+<body style="color: green;">
+<h1 style="color: royalblue; font-size: 60px;">Equipos de fútbol de argentina</h1>
+<h2 style="color: rgb(3, 31, 56);">1° División | Liga Profesional Argentina</h2>
+<p style="color: brown">
+    En ésta página web se encontarán algunos de los escudos de los equipos de la primera división del fútbol argentino.
 </p>
-<img width="400px" src="https://upload.wikimedia.org/wikipedia/commons/4/42/Hola_Mundo_en_Java.png" alt="Escudo de Vélez">
-<p>Se ve que si quiero hacer un salto, tengo que armar otro párrafo.</p>
+<p>
+    No están ordenados de forma jerárquica.
+</p>
+<img width="400px" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Logo_Liga_Profesional_de_F%C3%BAtbol_%28Argentina%29.png" alt="Logo LPA">
+<h4 id="Header4">Escudos de equipos</h4>
 
 <table>
     <tr>    
-        <td><img width="20%" src="https://upload.wikimedia.org/wikipedia/commons/3/36/Escudo_V%C3%A9lez_Sarsfield.png" alt="Escudo de Vélez"></td>
-        <td><img width="20%" src="https://upload.wikimedia.org/wikipedia/commons/3/36/Escudo_V%C3%A9lez_Sarsfield.png" alt="Escudo de Vélez"></td>
-        <td><img width="20%" src="https://upload.wikimedia.org/wikipedia/commons/3/36/Escudo_V%C3%A9lez_Sarsfield.png" alt="Escudo de Vélez"></td>
+        <td><img width="200px" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Aldosivi_logo.svg/1170px-Aldosivi_logo.svg.png" alt="Aldosivi"></td>
+        <td><img width="200px" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Logo_River_Plate.png" alt="Logo_River_Plate"></td>
+        <td><img width="200px" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Boca_escudo.png" alt="Boca"></td>
     </tr>
     <tr>
-        <td><img width="20%" src="https://upload.wikimedia.org/wikipedia/commons/3/36/Escudo_V%C3%A9lez_Sarsfield.png" alt="Escudo de Vélez"></td>
-        <td><img width="20%" src="https://upload.wikimedia.org/wikipedia/commons/3/36/Escudo_V%C3%A9lez_Sarsfield.png" alt="Escudo de Vélez"></td>
-        <td><img width="20%" src="https://upload.wikimedia.org/wikipedia/commons/3/36/Escudo_V%C3%A9lez_Sarsfield.png" alt="Escudo de Vélez"></td>    
+        <td><img width="200px" src="https://logodownload.org/wp-content/uploads/2019/04/rosario-central-logo-escudo.png" alt="Rosario Central"></td>
+        <td><img width="200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Escudo_del_Club_Estudiantes_de_La_Plata.svg/1649px-Escudo_del_Club_Estudiantes_de_La_Plata.svg.png" alt="Estudiantes"></td>
+        <td><img width="200px" src="https://upload.wikimedia.org/wikipedia/commons/3/36/Escudo_V%C3%A9lez_Sarsfield.png" alt="Vélez"></td>    
     </tr>
 </table>
 
-<div>
+<div class="ColorPrincipal">
     <label for=""> User</label>   
     <input type="text">
 </div>
