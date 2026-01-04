@@ -4,23 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primer desarrollo web</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="codigo.js"></script>
 
-    <style> 
-        p{
-            color:black;
-            font-style: italic;
-            font-weight: bold;
-        }
-        #Header4{
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            color: rgb(251, 127, 255);
-        }
-        .ColorPrincipal{
-            color: blueviolet;
-        }
-    </style>
 </head>
 <body style="color: green;">
+
 <h1 style="color: royalblue; font-size: 60px;">Equipos de fútbol de argentina</h1>
 <h2 style="color: rgb(3, 31, 56);">1° División | Liga Profesional Argentina</h2>
 <p style="color: brown">
@@ -47,15 +36,28 @@
 
 <div class="ColorPrincipal">
     <label for="">User</label>   
-    <input type="text">
+    <input type="text" id="txtUser">
 </div>
 <div>
     <label for="">Pass</label>
-    <input type="text">
+    <input type="password" id="txtPass">
 </div>
 <div>
-    <button>Ingresar</button>
+    <button onclick="saludar()">Ingresar</button>
 </div>
+
+<div>
+    <label for="">Número 1</label>
+    <input type="text" id="N1">
+</div>
+<div>
+    <label for="">Número 2</label>
+    <input type="text" id="N2">
+</div>
+<div>
+    <button onclick="sumar()">Sumar números</button>
+</div>
+
 
 </body>
 </html>
