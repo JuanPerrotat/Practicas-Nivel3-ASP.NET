@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de práctica</title>
+    <link rel="stylesheet" href="estilos1.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+  <form action="otroHTML.html" method="post">
+    <h3>Éste es un formulario de prueba.</h3>
+    <p>Completar el formulario a continuación:</p>
+    <p><label for="nombre">Nombre: <input type="text" id="nombre"></label></p>
+    <p><label for="apellido">Apellido: <input type="text" id="apellido"></label></p>
+    <p><label for="edad">Edad: <input type="text" id="edad"></label></p>
+    <br>
+    <p><label for="observacion">Observación:<textarea name="" id="observacion"></textarea></label></p>
+    <p><label>
+        Estatura: 
+        <select id="estatura">  
+            <option value="< 1,50"> < 1,50mts </option>
+            <option value="1,51 a 1,60"> 1,51 a 1,60mts </option>
+            <option value="1,61 a 1,70" selected> 1,61 a 1,70mts </option>
+            <option value="1,71 a 1,80"> 1,71 a 1,80mts </option>
+            <option value=">1,80"> >1,80mts </option>
+        </select>
+    </label></p>
+    
+    <p><b>Color de ojos:</b></p>
+    <input type="checkbox" value="marron" name="" id="colorOjos">
+        <label>Marrón</label> <br>
+    <input type="checkbox" value="verde" name="" id="colorOjos">
+        <label for="">Verde</label> <br>
+    <input type="checkbox" value="azul" name="" id="colorOjos">
+        <label>Azul</label> <br>
+    <input type="checkbox" value="celeste" name="" id="colorOjos">
+        <label>Celeste</label> <br>
+    <br>
+    <button type="submit">Enviar</button>
+
+    <br>
+    <br>
+
+    <table border="1"> 
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Mail</th>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Perrotat</td>
+            <td>juanperrotat@gmail.com</td>
+        </tr>
+         <tr>
+            <td>Fernando</td>
+            <td>Perrotat</td>
+            <td>float_4@hotmail.com</td>
+        </tr>
+         <tr>
+            <td>asdasd</td>
+            <td>asdasd</td>
+            <td>1231</td>
+        </tr>
+    </table>
+
+    <ol type="1">
+        <li>River</li>
+        <li>Boca</li>
+        <li>Vélez</li>
+    </ol>
+     <ul style="list-style-type:circle;">
+        <li>River</li>
+        <li>Boca</li>
+        <li>Vélez</li>
+    </ul>
+
+    <a href="https://www.youtube.com/">Ir a YouTube</a>
+    <br>
+    <a href="https://www.lapoliticaonline.com/">Ver La Política Online</a>
+    <br>
+    <a href="google.com.ar">Google</a>
+</body>
+</html>

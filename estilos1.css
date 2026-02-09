@@ -1,0 +1,21 @@
+body{
+    font-family: 'Cambria';
+}
+h1{
+    color: blue;
+    background-color: bisque;
+}
+a:link{
+    color:blue;
+}
+
+a:visited{
+    color: green;
+}
+a:hover{
+    background-color: yellow;
+    color: black;
+}
+li:hover{
+    color:red;
+}
